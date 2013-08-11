@@ -35,7 +35,7 @@
 			if($curBrand) {
 				$brandCond = " and brand = '$curBrand'";
 			}
-			$products = $db->get_all("select * from products where category = '耗材' $brandCond");
+			$products = $db->get_all("select * from products where category = '耗材' $brandCond order by price");
 			foreach ($products as $product) {
 
 		?>
