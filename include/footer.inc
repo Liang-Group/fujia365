@@ -8,7 +8,7 @@
     		padding-bottom:30px;
     		position: relative;
   			text-align: center;
-  			background-color: #555555;
+  			background-color: #FFFFFF;
   			width:100%;
   		}
     </style>
