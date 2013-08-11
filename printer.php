@@ -37,7 +37,7 @@
 			if($curColor) {
 				$colorCond = " and color = '$curColor'";
 			}
-			$products = $db->get_all("select * from products where category = '打印机' $colorCond order by price");
+			$products = $db->get_all("select * from products where category = '打印机' and is_deleted = 0 $colorCond order by price");
 			
 			foreach ($products as $product) {
 

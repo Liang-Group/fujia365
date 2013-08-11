@@ -30,6 +30,7 @@ CREATE TABLE `products` (
 	`list_price` DOUBLE NOT NULL DEFAULT '0' COMMENT '产品展示价格',
 	`category` VARCHAR(50) NULL DEFAULT NULL COMMENT '产品分类',
 	`description` VARCHAR(1000) NULL DEFAULT NULL COMMENT '产品描述',
+	`is_deleted` TINYINT NOT NULL DEFAULT 0 COMMENT '产品删除标识',
 	PRIMARY KEY (`id`),
 	INDEX `FK_product_category` (`category`),
 	CONSTRAINT `FK_product_category` FOREIGN KEY (`category`) REFERENCES `categories` (`name`)

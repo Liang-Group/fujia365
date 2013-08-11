@@ -65,7 +65,7 @@
 		<label>价格</label>
 		<input name="price" type="text" value="<?=@ $product->price ?>" placeholder="*价格">
 		<input name="list_price" type="text" value="<?=@ $product->list_price ?>" placeholder="标价">
-		<br/><br/><button type="submit" class="btn">确认</button><br/><br/>
+		<br/><br/><button type="submit" class="btn btn-primary">确认</button><button type="submit" class="btn btn-danger">删除</button><br/><br/>
 		<label>产品简介</label>
 		<textarea id="editor" name="description" style="width:440px;height:100px;"><?=@$product->description?></textarea>
 		<br/>
