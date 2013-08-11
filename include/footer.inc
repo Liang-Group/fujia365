@@ -14,7 +14,9 @@
     </style>
 
     <footer>
-      <p>Copyright 2012 上海复佳办公设备有限公司 沪ICP备12000979号 </p>
+      <p>Copyright 2013 上海复佳办公设备有限公司 沪ICP备12000979号 </p>
+      <p>上海市天山西路125号B座530室 沪ICP备12000979号</p>
+      <p>电话：021-62386667 传真：021-62381083</p>
     </footer>
 
     <div style="display:none">
