@@ -2,7 +2,7 @@
 	<div class="inner">
 		<div class="primary">
 			<p class="first">Copyright (c) 2013 <a href="http://www.veboolabs.com">上海复佳办公设备有限公司</a> </p>
-			<p>上海市天山西路125号B座530室 沪ICP备12000979号</p>
+			<p>上海市天山西路125号B座530室 沪ICP备13044122号-1</p>
 		</div>
 		<div class="secondary">
 			<p class="first">我们是一家绿色的公司</p>
